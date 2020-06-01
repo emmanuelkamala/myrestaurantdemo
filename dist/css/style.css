@@ -79,13 +79,13 @@
   }
   
   ul li:hover {
-    border-bottom: 2px solid #8d6262;
+    border-bottom: 2px solid #8bb975;
     -webkit-transition: border-bottom 200ms ease;
     transition: border-bottom 200ms ease;
   }
   
   ul li.active {
-    border-bottom: 2px solid #8d6262;
+    border-bottom: 2px solid #8bb975;
   }
   
   .home-main {
@@ -106,7 +106,7 @@
   
   .home-main h1 {
     margin: 0 0 2rem 0;
-    color: #aa9191;
+    color: #8bb975;
     font-size: 3rem;
   }
   
@@ -121,11 +121,11 @@
     color: #fbfbfb;
     padding: 1rem 1.5rem;
     outline: none;
-    border: 2px solid #aa9191;
+    border: 2px solid #8bb975;
     border-radius: 0.2rem;
     cursor: pointer;
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #aa9191), color-stop(50%, transparent));
-    background: linear-gradient(to right, #aa9191 50%, transparent 50%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #8bb975), color-stop(50%, transparent));
+    background: linear-gradient(to right, #8bb975 50%, transparent 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     -webkit-transition: background-position 200ms ease;
@@ -149,7 +149,7 @@
   }
   
   .contact-main h1 {
-    color: #8d6262;
+    color: #8bb975;
     margin: 0 0 0.5rem 0;
   }
   
@@ -211,7 +211,7 @@
   
   input:focus:invalid,
   textarea:focus:invalid {
-    border: 1px solid #8d6262;
+    border: 1px solid #8bb975;
   }
   
   textarea {
@@ -222,7 +222,7 @@
     margin-top: 1.5rem;
     padding: 0.5rem;
     background: transparent;
-    background-color: #8d6262;
+    background-color: #8bb975;
     outline: none;
     border: none;
     border-radius: 0.2rem;
@@ -252,7 +252,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #8d6262;
+    background-color: #8bb975;
     border-radius: 0 0.2rem 0.2rem 0;
   }
   
@@ -280,7 +280,7 @@
   .info-section h3 {
     margin: 0.5rem 0 0.25rem 0;
     font-size: 1.25rem;
-    color: #aa9191;
+    color: #c8eba1;
   }
   
   .info-section p {
@@ -294,7 +294,7 @@
     display: grid;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
-    background-color: #231f20;
+    background-color: #8bb975;
     border-radius: 0.2rem;
   }
   
@@ -314,7 +314,7 @@
     font-size: 2rem;
     font-weight: 700;
     padding-bottom: 0.5rem;
-    border-bottom: 2px dashed #8d6262;
+    border-bottom: 2px dashed #8bb975;
     margin: 0 2rem;
   }
   

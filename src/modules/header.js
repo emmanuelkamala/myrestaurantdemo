@@ -8,7 +8,7 @@ const Header = (() => {
       const span = document.createElement('span');
       span.classList.add('logo');
       span.setAttribute('id', 'logo');
-      span.innerText = 'Lorem Café';
+      span.innerText = 'Ejoka cafe';
   
       const ul = document.createElement('ul');
       const liHome = document.createElement('li');
@@ -17,9 +17,9 @@ const Header = (() => {
       liHome.setAttribute('id', 'home');
       liMenu.setAttribute('id', 'menu');
       liContact.setAttribute('id', 'contact');
-      liHome.innerText = 'home';
-      liMenu.innerText = 'menu';
-      liContact.innerText = 'contact us';
+      liHome.innerText = 'Home';
+      liMenu.innerText = 'Menu';
+      liContact.innerText = 'Contact us';
   
       ul.appendChild(liHome);
       ul.appendChild(liMenu);

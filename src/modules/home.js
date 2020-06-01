@@ -8,16 +8,16 @@ const Home = (() => {
       const div = document.createElement('div');
   
       const h2 = document.createElement('h2');
-      h2.innerText = 'We offer the best';
+      h2.innerText = 'We serve tasteful meals';
   
       const h1 = document.createElement('h1');
       h1.innerHTML =
-        '<span>breakfast</span> <span>coffee</span> <span>pancakes</span>';
+        '<span>breakfast</span> <span>lunch</span> <span>dinner</span>';
   
       const button = document.createElement('button');
       button.setAttribute('id', 'menu-btn');
       button.classList.add('menu-btn');
-      button.innerText = 'View our menu';
+      button.innerText = 'Checkout our menu';
   
       div.appendChild(h2);
       div.appendChild(h1);

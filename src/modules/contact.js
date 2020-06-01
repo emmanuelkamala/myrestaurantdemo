@@ -57,28 +57,28 @@ const Contact = (() => {
       openingHoursInfo.innerHTML = `
         <i class="fas fa-coffee"></i>
         <h3>Opening Hours</h3>
-        <p>7:00am - 10:00pm</p>
+        <p>8:30am - 09:00pm</p>
       `;
   
       const phoneInfo = document.createElement('div');
       phoneInfo.innerHTML = `
         <i class="fas fa-phone"></i>
         <h3>Phone</h3>
-        <p>+1-204-444-0237</p>
+        <p>+255 678 794 479</p>
       `;
   
       const emailInfo = document.createElement('div');
       emailInfo.innerHTML = `
         <i class="fas fa-envelope"></i>
         <h3>Email</h3>
-        <p>enquiry@lorem.cafe</p>
+        <p>info@ejokacafe.co.tz</p>
       `;
   
       const locationInfo = document.createElement('div');
       locationInfo.innerHTML = `
         <i class="fas fa-map-marked-alt"></i>
         <h3>Location</h3>
-        <p>Somewhere in Lorem</p>
+        <p>Dar es salaam, TZ</p>
       `;
   
       section.appendChild(openingHoursInfo);

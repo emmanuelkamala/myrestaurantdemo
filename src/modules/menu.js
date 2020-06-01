@@ -2,15 +2,15 @@ const Menu = (() => {
     const menuList = [
       {
         title: 'Breakfast',
-        items: ['Ham and Egg', 'Bacon and Cheese', 'Tuna Salad', 'Beef Soup'],
+        items: ['Chapati and Fish Soup', 'Eggs and Bread', 'Maandazi', 'Samosas'],
       },
       {
-        title: 'Coffee',
-        items: ['Cappucino', 'Cafe Latte', 'Americano', 'Mocha'],
+        title: 'Lunch',
+        items: ['Rice and beans', 'Rice and Sato fish', 'Chips chicken', 'Ugali and Liver soup'],
       },
       {
-        title: 'Pancakes',
-        items: ['Banana Nut', 'Oatmeal Raisin', 'Blueberry', 'Chocolate Chip'],
+        title: 'Dinner',
+        items: ['Chapati and Liver soup', 'Chicken tandori and chips', 'Rice and beef', 'Minced meat and chips'],
       },
     ];
   
