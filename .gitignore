@@ -1,3 +1,3 @@
 # Don't track changes of these folders
 
-node_modules/
+node_modules
