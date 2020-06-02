@@ -2,7 +2,7 @@
 
 Its a small project practicing DOM manipulation by dynamically rendering a simple restaurant homepage! In the end, I am going to be using JavaScript alone to generate the entire contents of the website!
 
-![screenshot](./restaurant.png)
+![screenshot](./dist/img/restaurant.png)
 
 
 

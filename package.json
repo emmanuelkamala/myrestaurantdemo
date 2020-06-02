@@ -1,0 +1,30 @@
+{
+  "name": "myrestaurantdemo",
+  "version": "1.0.0",
+  "description": "Its a small project practicing DOM manipulation by dynamically rendering a simple restaurant homepage! In the end, I am going to be using JavaScript alone to generate the entire contents of the website!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuelkamala/myrestaurantdemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmanuelkamala/myrestaurantdemo/issues"
+  },
+  "homepage": "https://github.com/emmanuelkamala/myrestaurantdemo#readme",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
